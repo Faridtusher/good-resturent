@@ -3,7 +3,6 @@
 *{
    margin: 0;
    padding: 0;
- 
 }
 
 .navContainer{
@@ -36,7 +35,6 @@ li > a:hover{
    color: orange;
    text-decoration: underline;  
 }
-
 
 .menuContainer{
    margin: 0px auto;
