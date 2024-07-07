@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+ 
+}
+
+.navContainer{
+   background-color: rgb(35, 33, 33);
+}
+
+ul{
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   margin-right: 50px;
+}
+
+li{
+ list-style: none;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ 
+}
+
+li > a{
+   text-decoration: none;
+   color: white;
+   margin-right: 50px;
+   font-size: larger;
+   font-weight: 500;  
+}
+
+li > a:hover{
+   color: orange;
+   text-decoration: underline;  
+}
+
+
+.menuContainer{
+   margin: 0px auto;
+   width: 880px;
+   text-align: center;
+   margin-top: 100px;
+}
+
+.menuContainer p{
+   color: rgb(16, 16, 16);
+   font-family: "Work Sans", sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 28px;
+   letter-spacing: 0%;
+   text-align: center;
+   margin-bottom: 16px;
+}
+
+.menuContainer h1{
+   color: rgb(16, 16, 16);
+   font-family: "Work Sans", sans-serif;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 64px;
+   letter-spacing: 0%;
+   text-align: center;
+   margin-bottom: 48px;
+}
+
+span{
+   display: block;
+}
+
+.foodDetailsContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.foodDetails button{
+   border-radius: 8px;
+   border: none;
+   padding: 14px 32px 14px 32px;
+   background: rgba(22, 175, 40, 0.395);
+   font-weight: 700;
+   margin-top: 20px;
+}
+
+.foodDetails h2{
+   color: rgb(16, 16, 16);
+   font-family: Work Sans;
+   font-size: 25px;
+   font-weight: 600;
+   line-height: 47px;
+   letter-spacing: 0%;
+   text-align: center;
+}
+
+.foodDetails p{
+   color: rgb(16, 16, 16);
+   font-family: Work Sans;
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 28px;
+   letter-spacing: 0%;
+   text-align: center;
+}
+
+.orderBtn{
+   margin-top: 64px;
+   border-radius: 5px;
+   background: rgb(82, 195, 3);
+   border: none;
+   padding: 21px 32px 21px 32px;
+   color: white;
+   font-weight: 600;
+   text-align: center;
+   margin-bottom: 5px;
+}
+
+
+
